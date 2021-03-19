@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/home_bottom_navigation"
+    app:startDestination="@id/dishes">
+
+    <fragment
+        android:id="@+id/dishes"
+        android:name="com.example.menuui_demo.home.Dishes"
+        android:label="Dishes" />
+    <fragment
+        android:id="@+id/favorites"
+        android:name="com.example.menuui_demo.home.Favorites"
+        android:label="Favorites" />
+    <fragment
+        android:id="@+id/location"
+        android:name="com.example.menuui_demo.home.Location"
+        android:label="Location" />
+    <fragment
+        android:id="@+id/profile"
+        android:name="com.example.menuui_demo.home.Profile"
+        android:label="Profile" />
+</navigation>
