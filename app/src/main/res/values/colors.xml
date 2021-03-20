@@ -10,4 +10,5 @@
     <color name="yellow">#e1d179</color>
     <color name="light_gray">#838486</color>
     <color name="black_light_variant">#323234</color>
+    <color name="yellow_alpha_0.5">#50e1d179</color>
 </resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dish_item_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:padding="16dp"
+    >
+
+    <TextView
+        android:id="@+id/dish_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:ellipsize="none"
+        android:singleLine="true"
+        android:text="TextView"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/dish_image"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/dish_description"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:maxLength="100"
+        android:text="TextView"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:textColor="@color/light_gray"
+        app:layout_constraintEnd_toEndOf="@+id/dish_title"
+        app:layout_constraintStart_toStartOf="@+id/dish_title"
+        app:layout_constraintTop_toBottomOf="@+id/dish_title"
+        tools:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet commodo nibh. Integer luctus dictum ultricies. Integer sed mi sapien. Nam id condimentum nibh."/>
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/dish_image"
+        android:layout_width="68dp"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearanceOverlay="@style/ShapeAppearance.MaterialComponents.roundedCorner"
+        app:srcCompat="@drawable/noodles" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

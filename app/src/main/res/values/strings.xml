@@ -2,4 +2,29 @@
     <string name="app_name">MenuUI_demo</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dish_item_description">Dish Image</string>
+
+
+    <!--  static dishes list and their descriptions -->
+    <string-array name="dishes">
+        <item>Toyo Eatery</item>
+        <item>kokomo</item>
+        <item>City Eats NYC</item>
+        <item>le Bernardin</item>
+    </string-array>
+
+    <string-array name="dishes_descriptions">
+        <item>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pretium efficitur dolor sed sollicitudin. Ut suscipit metus sed mauris suscipit ornare. Aliquam erat volutpat.
+        </item>
+        <item>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pretium efficitur dolor sed sollicitudin. Ut suscipit metus sed mauris suscipit ornare. Aliquam erat volutpat.
+        </item>
+        <item>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pretium efficitur dolor sed sollicitudin. Ut suscipit metus sed mauris suscipit ornare. Aliquam erat volutpat.
+        </item>
+        <item>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pretium efficitur dolor sed sollicitudin. Ut suscipit metus sed mauris suscipit ornare. Aliquam erat volutpat.
+        </item>
+    </string-array>
 </resources>

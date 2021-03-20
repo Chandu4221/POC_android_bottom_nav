@@ -17,6 +17,10 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
+    buildFeatures {
+        viewBinding true
+    }
+
     buildTypes {
         release {
             minifyEnabled false
@@ -33,7 +37,7 @@ android {
     sourceSets {
         main {
             res {
-                srcDirs 'src/main/res', 'src/main/res/layouts', 'src/main/res/layouts/home', 'src/main/res/layouts/home/dishes', 'src/main/res/layouts/dishes', 'src/main/res/layouts/dishes/layout', 'src/main/res/layouts/favorites', 'src/main/res/layouts/favorites/layout', 'src/main/res/layouts/location', 'src/main/res/layouts/location/layout', 'src/main/res/layouts/profile', 'src/main/res/layouts/profile/layout', 'src/main/res/shapes/rounded_corners', 'src/main/res/shapes/rounded_corners/layout'
+                srcDirs 'src/main/res', 'src/main/res/layouts', 'src/main/res/layouts/home', 'src/main/res/layouts/home/dishes', 'src/main/res/layouts/dishes', 'src/main/res/layouts/dishes/layout', 'src/main/res/layouts/favorites', 'src/main/res/layouts/favorites/layout', 'src/main/res/layouts/location', 'src/main/res/layouts/location/layout', 'src/main/res/layouts/profile', 'src/main/res/layouts/profile/layout', 'src/main/res/shapes/rounded_corners', 'src/main/res/shapes/rounded_corners/layout', 'src/main/res/layouts/dish_item', 'src/main/res/layouts/dish_item/layout'
             }
         }
     }
@@ -49,6 +53,7 @@ dependencies {
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     implementation 'androidx.navigation:navigation-fragment-ktx:2.2.2'
     implementation 'androidx.navigation:navigation-ui-ktx:2.2.2'
+    implementation 'com.google.android.material:material:1.4.0-alpha01'
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
